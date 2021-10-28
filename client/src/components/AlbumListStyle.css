@@ -1,0 +1,15 @@
+.text-hover:hover{
+    color:white
+}
+.add-note-btn{
+    width: 100%;
+}
+.album-cards{
+    display: flex;
+}
+
+@media screen and (max-width: 700px) {
+    .album-cards{
+        flex-direction: column;
+    }
+}
